@@ -5,7 +5,7 @@ var objid = new ObjectID();
 console.log(objid);
 
 MongoClient.connect('mongodb://localhost:27017/TodoApp',(err,client) => {
-if(err){
+if(err){ 
   return console.log('Unable to connect to db server');
 }
 console.log('Connected to db');
